@@ -1,0 +1,40 @@
+  h1{
+  font-size:10000;
+
+}
+  body{
+
+      font-family: 'Indie Flower', cursive;
+      font-size: 30px;
+      width: 800px;
+      padding:20px;
+      margin:auto;
+      background-size: contain;
+      align-self: center;
+      text-align: center;
+      color:black;
+      background:url(../images/B.jpg);
+
+
+  }
+  #box{
+      font-family: 'Indie Flower';
+      width: 600px;
+      padding:100px;
+      text-align: center;
+      margin:auto;
+      color:white;
+      background:url(../images/C.jpg);
+
+}
+button{
+font-family: 'Indie Flower';
+}
+
+ol{
+  color:white;
+}
+#input{
+  color:white;
+  font-size: 70px;
+}
