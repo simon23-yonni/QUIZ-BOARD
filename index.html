@@ -1,55 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-    <link href="css/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
-     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-    <script src="./js/scripts.js"></script>
-     <title>quizboard</title>
-   </head>
-   <body>
-       <div id="container">
-           <div id="card">
-           <div id="box"
-       <h1>Welcome to today's quiz.</h1>
-       <p><strong>DO NOT</strong> leave a question unanswered!</p>
-       </div>
-       <form id="questions">
-           <ol>
-               <br><li> What does HTML stand for?</li><br>
-               <input type="radio" id="1a" name="answer1" value="10"/>Hyper Text Markup Language.<br>
-               <input type="radio" id="2a" name="answer1" value="0"/>Hakuna tofauti ya mtu na lorry<br>
-               <input type="radio" id="3a" name="answer1" value="0"/>Hunger mail lessons.<br>
+    <head>
+      <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+      <link href="css/bootstrap-4.3.1-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="js/scripts.js"></script>
+      <title>quizboard</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="card">
+            <div id="box">
+              <h1>QUIZ BOARD.</h1>
+              <p><strong>Please answer all questions below</strong></p>
 
-               <br><li>How many tags are in a regular element?</li><br>
-               <input type="radio" id="1b" name="answer2" value="0"/>1.<br>
-               <input type="radio" id="2b" name="answer2" value="10"/>2.<br>
-               <input type="radio" id="3b" name="answer2" value="0"/>3.<br>
+        <form id="questions">
+            <ol>
+              <strong>
+                <br><li> What does HTML stand for?</li><br>
+                <input type="radio" id="1a" name="answer1" value="10"/>Hyper Text Markup Language.<br>
+                <input type="radio" id="2a" name="answer1" value="0"/>Huge mail.<br>
+                <input type="radio" id="3a" name="answer1" value="0"/>Header merge tag.<br>
 
-               <br><li>What method is responsible for parsing integers?</li><br>
-               <input type="radio" id="1c" name="answer3" value="0"/>parseFloat<br>
-               <input type="radio" id="2c" name="answer3" value="0"/>returnNumber<br>
-               <input type="radio" id="3c" name="answer3" value="10"/>parseInt.<br>
+                <br><li>What is the correct syntax of doctype in HTML?</li><br>
+                <input type="radio" id="1b" name="answer2" value="0"/>(doctype html!).<br>
+                <input type="radio" id="2b" name="answer2" value="10"/> (!doctype html).<br>
+                <input type="radio" id="3b" name="answer2" value="0"/>There is no difference.<br>
 
-               <br><li>Which statement is <strong>FALSE</strong>?</li><br>
-               <input type="radio" id="1d" name="answer4" value="0"/>Javascript is a scripting language.<br>
-               <input type="radio" id="2d" name="answer4" value="10"/>Javascript is found in JQuery library  .<br>
-               <input type="radio" id="3d" name="answer4" value="0"/>Javascript holds the js file extension.<br>
+                <br><li>Which is the first tag used in a html document?</li><br>
+                <input type="radio" id="1c" name="answer3" value="10"/>HTML.<br>
+                <input type="radio" id="2c" name="answer3" value="0"/>TITLE.<br>
+                <input type="radio" id="3c" name="answer3" value="0"/>BODY.<br>
 
-               <br><li>What is the other name for JavaScript?</li><br>
-               <input type="radio" id="1e" name="answer5" value="10"/>ECMAScript.<br>
-               <input type="radio" id="2e" name="answer5" value="0"/>JS.<br>
-               <input type="radio" id="3e" name="answer5" value="0"/>I don't know.<br>
+                <br><li>Which of these is not a paired tag</li><br>
+                <input type="radio" id="1d" name="answer4" value="10"/> img.<br>
+                <input type="radio" id="2d" name="answer4" value="0"/> HTML.<br>
+                <input type="radio" id="3d" name="answer4" value="0"/>TITLE.<br>
 
+                <br><li> HTML is a?</li><br>
+                <input type="radio" id="1e" name="answer5" value="0"/>Operating system.<br>
+                <input type="radio" id="2e" name="answer5" value="10"/> Markup Language with Tags.<br>
+                <input type="radio" id="3e" name="answer5" value="0"/>Database software.<br>
 
-               <div class="button">
-               <br><button class="btn" type="submit">SUBMIT!</button><br>
-               </div>
-       </form>
-   </div>
-       </div>
-       <div id="input"></div>
+                <br><li>Title tag is kept inside?</li><br>
+                <input type="radio" id="1f" name="answer6" value="0"/>body tag<br>
+                <input type="radio" id="2f" name="answer6" value="10"/>head tag.<br>
+                <input type="radio" id="3f" name="answer6" value="0"/>before starting of html tag.<br>
 
-       </body>
+                <br><li> What should values always be enclosed in?</li><br>
+                <input type="radio" id="1g" name="answer7" value="10"/> Quotation marks<br>
+                <input type="radio" id="2g" name="answer7" value="0"/>brackets.<br>
+                <input type="radio" id="3g" name="answer7" value="0"/>curly brackets.<br>
+
+                <br><li>How many types of Headings does HTML use?</li><br>
+                <input type="radio" id="1h" name="answer8" value="0"/>10<br>
+                <input type="radio" id="2h" name="answer8" value="10"/>6.<br>
+                <input type="radio" id="3h" name="answer8" value="0"/>8.<br>
+
+                <br><li>What is the file extension used for HTML files?</li><br>
+                <input type="radio" id="1i" name="answer9" value="0"/>.exe<br>
+                <input type="radio" id="2i" name="answer9" value="10"/>.html.<br>
+                <input type="radio" id="3i" name="answer9" value="0"/>.jpg.<br>
+                </ol>
+                
+                <div class="button">
+                <br><button class="btn" type="submit">SUBMIT!</button><br>
+                </div>
+                </div>
+        </form>
+      </strong>
+    </div>
+        </div>
+        <div id="input"></div>
+
+        </body>
 </html>
