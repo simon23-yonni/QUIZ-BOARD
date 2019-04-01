@@ -10,11 +10,10 @@ $(document).ready(function() {
         var val7 = parseInt($("[name=answer7]:checked").val());
         var val8 = parseInt($("[name=answer8]:checked").val());
         var val9 = parseInt($("[name=answer9]:checked").val());
-        var val10 = parseInt($("[name=answer10]:checked").val());
-        var result = parseInt(val1+ val2 + val3 + val4 + val5 + val6 + val7 + val8 + val9 + val10 );
+        var result = parseInt(val1+ val2 + val3 + val4 + val5 + val6 + val7 + val8 + val9  );
         if (result > 50) {
          $("#input").text("CONGRATULATIONS " + "Your score is: " + result);
-        }else{
+        }else if(result < 40) {
             $("#input").text( "Your score is: " + result + " You will have to retake the exam");
         }
     });
