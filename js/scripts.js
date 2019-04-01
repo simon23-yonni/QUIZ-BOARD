@@ -13,8 +13,9 @@ $(document).ready(function() {
         var result = parseInt(val1+ val2 + val3 + val4 + val5 + val6 + val7 + val8 + val9  );
         if (result > 50) {
          $("#input").text("CONGRATULATIONS " + "Your score is: " + result);
-        }else if(result < 40) {
-              $("#input").text( "Your score is: " + result + " You will have to retake the exam");
+       }
+       else{
+       $("#input").text( "Your score is: " + result + " You will have to retake the exam");
         }
     });
 });
